@@ -27,7 +27,9 @@ Para uso do software, siga os seguintes passos:
 
 ![configurando Putty](/image/terminal.png)
 
-- **6°:** Está pronto, dê os comandos para executar as funcionalidades, digitando com o teclado e apertando enter. Os comandos disponíveis são:
+- **6°:** Está pronto, dê os comandos para executar as funcionalidades, digitando com o teclado e apertando enter. 
+## Comandos disponíveis
+
   - `red`: acende o LED vermelho;
   - `blue`: acende o LED azul;
   - `green`: acende o LED verde;
@@ -35,3 +37,6 @@ Para uso do software, siga os seguintes passos:
   - `buzzer`: toca o buzzer por 2 segundos;
   - `offled`: desliga os LEDs.
 
+## Video Ensaio
+
+Clique em ***[video ensáio](https://drive.google.com/file/d/17ePioUmqai4G04fg9g9GIghn4U3ZCCYB/view?usp=sharing)*** para visualizar o vídeo ensaio do projeto.

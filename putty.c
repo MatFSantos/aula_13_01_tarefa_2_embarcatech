@@ -72,9 +72,13 @@ void execute(char * command) {
         gpio_put(GPIO_VERMELHO, false);
         play_tone(2093, 2000, GPIO_BUZZER);
         play_tone(0, 0, GPIO_BUZZER);
-    } else {
-        printf("Unknown command\n");
-        printf("Commands availables:\n- red\n- blue\n- green\n- white\n- buzzer\n");
+    } else if (strcmp(command, "off led") == 0) {
+        gpio_put(GPIO_AZUL, false);
+        gpio_put(GPIO_VERDE, false);
+        gpio_put(GPIO_VERMELHO, false);
+    }else {
+        printf("Unknown command\n\n");
+        printf("Commands availables:\n- red\n- blue\n- green\n- white\n- buzzer\n- off led\n\n");
     }
 }
 
